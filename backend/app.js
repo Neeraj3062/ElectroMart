@@ -38,8 +38,7 @@ app.use("/api", brainTreeRouter);
 app.use("/api/order", orderRouter);
 app.use("/api/customize", customizeRouter);
 
-mongoose
-  .connect(process.env.MONG_URI, {
+mongoose.connect(process.env.MONG_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true, 
