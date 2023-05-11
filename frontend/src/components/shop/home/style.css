@@ -1,0 +1,150 @@
+.navbar{
+  background: #000;color: whitesmoke;
+}
+
+.navbar span{
+  color: whitesmoke;
+
+  font-weight: 600;
+}
+
+.slider {
+
+  height: 12px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 75%;
+  background: #b7791f;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 75%;
+  background: #b7791f;
+  cursor: pointer;
+}
+
+
+#slider_img{
+  height: 400px;
+}
+
+#product_img{
+  height: 200px;
+}
+
+.like_btn{
+  color: #FFD700;
+}
+
+.p_name{
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.p_price{
+  color: #554e4e;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.p_heading{
+  font-size: 30px;
+  font-weight: 700;
+  border-bottom: 1px solid #000;
+  width: fit-content;
+  position: relative;
+  left:44%;
+}
+
+.p_price_single{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.cat_down_head{
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.cat_down_btn{
+  color: #5996f3;
+  color: #ac6cff;
+  
+
+}
+
+.search_down{
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.wish_list_head{
+  font-weight: 600;
+  font-size: 36px;
+}
+.wish_list_p_name{
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.wish_list_p_price{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.wish_list_stock_info{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.wish_list_no_p_f
+{
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+
+}
+
+.my_orders_head{
+  font-size: 24px;
+}
+
+.order_head{
+  font-size: 32px;
+  font-weight: 700;
+  border-bottom: 4px solid #000;
+  width: fit-content;
+}
+#single_p_side_img{
+  width: 1000px;
+  height: 500px;
+}
+
+
+.user_icon{
+  font-size: 70px;
+  color: #f35987;
+}
+
+.order_fill_info{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.order_fill_paynow{
+  background-color: rgb(8, 143, 8);
+}
